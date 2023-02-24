@@ -19,3 +19,5 @@ const calculadora = (n1, n2, tipoConta) => {
         console.log(`Resultado: ${resultado}`);
     };
 };
+
+exports.calcular = calculadora;
